@@ -1,0 +1,189 @@
+*{
+    margin:0;
+    padding: 0;
+ }
+.header{
+    min-height:"40%";
+    width:"100%";
+    background-color:peachpuff;
+    
+    background-position:center;
+    background-size:cover;
+    position:relative;}
+.h1{background-image: linear-gradient(45deg, #f3ec78, #af4261);
+    
+    
+    text-align: center;
+    font-size: 500%;
+   }
+    
+ .h2{margin-top:30px;
+     text-align: center;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif 
+
+ }
+ .h3{
+      font-style: italic;
+      text-align:right;
+ }
+ .h4{
+     text-align: center;
+     font-style: normal;
+     font-size: 300%;
+ }
+ .h5{
+     margin-left: 30%;
+     font-weight: bold;
+     font-size:250%;
+ }
+ .div1{ margin-top: 5%;
+    
+     font-size: 200%;
+     font-style:strong;
+     font-style:oblique;
+     font-weight: bolder;
+     color: rgb(8, 105, 170);
+     animation-name: fade;
+    animation-duration: 5s;
+ }
+ @keyframes fade {
+    50% { opacity:0.1;
+          color:blueviolet;
+          
+
+    }
+  }
+.p{
+    margin-left: 45%;
+    font-size: 150%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h6{
+    font-size: 250%;
+    font-weight: bolder;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 50px;
+} 
+.p1 { margin-left:5% ;
+      font-size :180%;
+      font-weight: 700;
+      font-style:italic;
+
+}
+.p2{
+     color: rgb(20, 103, 170);
+     margin-top: 2%;
+}
+    
+.p3{
+     margin-top: 2% ;
+}
+.p4{
+    margin-top:2%;
+}
+.green{
+      color: chartreuse;
+    
+}
+.imgbook{
+    width: 700px;
+    object-position: center;
+    border-radius:30% ;
+    margin: right 50px;
+
+}
+ .imgbook:hover {                     
+    transform: scale(1.2);
+    
+}
+
+.imggraph{
+    width:500px;
+}
+
+a:hover{
+    color: red;
+}
+.wrapper{
+    margin-left:35%;
+    border-radius: 30%;
+    border-width: thick;
+}
+
+
+
+
+ #rect {
+    height: 40px;
+    width: 3.2%;
+    background: black;
+    margin-top:50px;
+    border-radius: 5px;
+    animation-name: rotate;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes rotate{
+      20%{
+           transform:rotate(90deg);
+           background: red;
+      }
+  }
+#rect1{ height: 40px;
+    width: 4%;
+    background: black;
+    margin-top: 25px;
+    border-radius: 5px;
+    animation-name: rotate1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes rotate1{
+      40%{
+        transform:rotate(90deg);
+        background: blue;
+      }
+  }
+
+  #rect2{ height: 50px;
+    width: 5.8%;
+    background: black;
+    margin-top:35px ;
+    border-radius: 5px;
+    animation-name: rotate2;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes rotate2{
+  60%{
+      transform:rotate(90deg);
+      background: blueviolet;
+    }
+}
+
+
+  #rect3{ height: 60px;
+    width: 7%;
+    background: black;
+    margin-top: 50px;
+    border-radius: 5px;
+    animation-name: rotate3;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    
+  }
+  @keyframes rotate3{
+      70%{
+    transform:rotate(90deg);
+    background: chartreuse;
+  }
+}
+
+  
+  
+      
+  
+
